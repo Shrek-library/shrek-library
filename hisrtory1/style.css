@@ -1,0 +1,92 @@
+h2{
+    background-position: center center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.photo1{
+    border-radius: 40px;
+    height: 15vh;
+    width: 15vh;
+}
+header {
+    background: #00881d;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.book-list {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.book {
+    margin-bottom: 20px;
+    padding: 10px; /* Добавляем отступы внутри книги */
+    border-bottom: 1px solid #ccc; /* Разделяем книги линией */
+}
+
+.book h3 {
+    margin: 0;
+}
+
+/* Стили для мобильных устройств */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block; /* Переключаем на блочный вид для мобильных */
+        margin: 10px 0; /* Добавляем отступы между элементами */
+    }
+
+    .book-list {
+        padding: 0px; /* Уменьшаем отступы для мобильных */
+        border-radius: 0px;
+        box-shadow: none;
+    }
+
+    .book {
+        padding: 0px; /* Добавляем отступы внутри книги */
+        border-bottom: 0px solid #ccc; /* Разделяем книги линией */
+        margin: 0;
+    }
+
+    footer {
+        font-size: 14px; /* Уменьшаем размер шрифта в подвале */
+        padding: 5px 0; /* Уменьшаем отступы в подвале */
+    }
+    main {
+        padding: 0;
+    }
+    
+}
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #00881d;
+    color: #fff;
+}
